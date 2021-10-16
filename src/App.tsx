@@ -4,7 +4,7 @@ import './styles/sidebar.scss';
 import './styles/content.scss';
 import { SideBar } from './components/SideBar';
 import { Content } from './components/Content';
-import { MoviesProvider } from './MoviesContext';
+import { MoviesProvider } from './contexts/MoviesContext';
 
 
 
@@ -12,7 +12,7 @@ export function App() {
 
   return (
     <MoviesProvider>
-      <div style={{ display: 'flex', flexDirection: 'row' }}>
+      <div className="home">
         <SideBar />
         <Content />
       </div>

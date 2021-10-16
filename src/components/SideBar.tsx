@@ -1,4 +1,4 @@
-import { useMovies } from "../MoviesContext";
+import { useMovies } from "../contexts/MoviesContext";
 import { Button } from "./Button";
 
 export function SideBar() {

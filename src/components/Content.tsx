@@ -1,4 +1,4 @@
-import { useMovies } from "../MoviesContext";
+import { useMovies } from "../contexts/MoviesContext";
 import { MovieCard } from "./MovieCard";
 
 export function Content() {
